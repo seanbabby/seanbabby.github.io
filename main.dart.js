@@ -104082,7 +104082,7 @@ return new A.aip(n)})
 s($,"bgi","aGO",()=>A.aPA(new A.aFO(),A.a0("mM"),t.y))
 s($,"bgh","aLj",()=>A.aJ0(new A.aFN(),t.y))
 s($,"bcn","aUu",()=>{var q=t.yo
-return A.b_C("/",A.a([A.ahf(new A.anm(),"home","/",A.a([A.ahf(new A.ann(),"information","app/information",B.kZ)],q)),A.ahf(new A.ano(),"commodity_info","/commodity_info",B.kZ)],q))})
+return A.b_C("/",A.a([A.ahf(new A.anm(),"home","/",A.a([A.ahf(new A.ann(),"information","app/information",B.kZ)],q)),A.ahf(new A.ano(),"commodity_info","/app/commodity_info",B.kZ)],q))})
 s($,"bgg","aLi",()=>A.ahd(null,t.i1))
 s($,"bge","aGN",()=>A.ahd(null,t.i1))
 s($,"bg8","aLh",()=>A.ahd(null,t.i1))
