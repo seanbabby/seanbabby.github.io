@@ -89604,7 +89604,7 @@ js(a,b){var s=b.hA(this.e,t.Du).e
 if(s.a===B.bA)return this.abB(s.b.a)
 return B.GE},
 abB(a){var s=null,r=A.aHb(B.jN,1)
-return A.ci(s,A.b_R(a,new A.aj8(),B.cT,B.Jk),B.cj,s,s,B.Jb,new A.ch(s,s,r,s,s,s,B.fO),s,s,s,s,s,110)}}
+return A.ci(s,A.b_R(a,new A.aj8(),B.cT,B.Jk),B.cj,s,s,B.Jd,new A.ch(s,s,r,s,s,s,B.fO),s,s,s,s,s,110)}}
 A.aj8.prototype={
 $3(a,b,c){return A.px("assets/desktop-pic-commodity-avatar-default.svg",null,!1,null)},
 $S:551}
@@ -89865,7 +89865,7 @@ E(a){return A.kh(B.bX,A.a([new A.a2S(this.c,null),B.Qs],t.p),B.U,B.bz)}}
 A.a2S.prototype={
 E(a){var s=null,r=A.bA(a,s,t.l).w.a,q=A.mu(r.a)===B.aA?100:60
 A.m5().$1(this.j(0))
-return A.aP7(A.aLO(!1,$.aKO(),B.a93,0,q),A.ci(s,this.c,B.p,s,s,B.Je,s,r.b,s,s,s,s,s),!0)}}
+return A.aP7(A.aLO(!1,$.aKO(),B.a93,0,q),A.ci(s,this.c,B.p,s,s,B.Ji,s,r.b,s,s,s,s,s),!0)}}
 A.zK.prototype={
 E(a){var s=null,r=this.c,q=A.a5(r).h("V<1,mn>"),p=A.aj(new A.V(r,new A.ab1(this),q),!0,q.h("b9.E"))
 return new A.Cp(new A.cr(new A.bt(A.a7(153,0,11,43),t.Il),s,s,s,s,s,s,s,s,s,s,s,s),p,this.e,s)}}
@@ -90178,7 +90178,7 @@ return null},
 $S:28}
 A.Pk.prototype={
 E(a){var s=null,r=t.p
-return A.cC(A.a([new A.LW(B.Ls,0,new A.cW(A.aHa(8),B.z),B.U,B.PR,!1,A.cC(A.a([A.ci(s,A.cC(A.a([new A.R9($.yU.aP(),s),B.abb,A.MZ(new A.adj(),s)],r),B.v,B.y,B.t),B.p,s,B.jw,B.Jf,s,s,B.oH,B.PF,s,s,1/0),A.ci(s,B.Oc,B.p,s,B.jw,s,s,s,s,B.oH,s,s,1/0)],r),B.v,B.y,B.t),s)],r),B.v,B.y,B.d3)}}
+return A.cC(A.a([new A.LW(B.Ls,0,new A.cW(A.aHa(8),B.z),B.U,B.PR,!1,A.cC(A.a([A.ci(s,A.cC(A.a([new A.R9($.yU.aP(),s),B.abb,A.MZ(new A.adj(),s)],r),B.v,B.y,B.t),B.p,s,B.jw,B.Jb,s,s,B.oH,B.PF,s,s,1/0),A.ci(s,B.Oc,B.p,s,B.jw,s,s,s,s,B.oH,s,s,1/0)],r),B.v,B.y,B.t),s)],r),B.v,B.y,B.d3)}}
 A.adj.prototype={
 $3(a,b,c){var s,r=null,q=b.hA($.yU.aP(),t.Du).a
 if(q.a===B.bA){s=q.b.y
@@ -90366,7 +90366,7 @@ break $label0$0}s=B.am4
 break $label0$0}return s}}
 A.ai7.prototype={
 $2(a,b){var s=null
-return A.ci(s,A.cC(A.a([B.amK,this.a.a5c(b.b)],t.p),B.v,B.y,B.t),B.p,s,s,B.Jg,s,s,s,B.oL,s,s,s)},
+return A.ci(s,A.cC(A.a([B.amK,this.a.a5c(b.b)],t.p),B.v,B.y,B.t),B.p,s,s,B.Jf,s,s,s,B.oL,s,s,s)},
 $S:215}
 A.a6U.prototype={
 E(a){return A.cC(A.a([B.ahs,B.m2,new A.j5(new A.aCH(),null)],t.p),B.v,B.y,B.t)}}
@@ -90480,12 +90480,12 @@ A.Gr.prototype={
 E(a){var s=null,r=this.e,q=r?s:0,p=new A.bi(new Float64Array(16))
 p.cD()
 p.bd(0,this.d?1.1:1)
-return A.aLK(A.ci(s,s,B.p,s,s,new A.ch(s,r?A.aHy(B.bD,new A.iR(A.b_J(this.c),s,s),s):s,s,s,s,s,B.a4),s,s,s,s,s,s,s),s,B.k1,s,B.c1,s,q,p)}}
+return A.aLK(A.ci(s,s,B.p,s,s,new A.ch(s,r?A.aHy(B.bD,new A.iR("assets/"+A.h(A.b_J(this.c)),s,s),s):s,s,s,s,s,B.a4),s,s,s,s,s,s,s),s,B.k1,s,B.c1,s,q,p)}}
 A.QL.prototype={
 E(a){return new A.j5(new A.ai9(),null)}}
 A.ai9.prototype={
 $2(a,b){var s=null,r=A.mu(b.b),q=r===B.aA,p=q?1:0,o=q?200:100,n=q?B.a1:B.Z
-return A.ci(s,A.oA(A.a([A.ep(new A.a2E(r,s),p),B.ab2,A.ep(new A.a1y(r,s),p)],t.p),B.v,n,s,B.y,B.t,s,s,B.an),B.p,s,s,B.Jd,s,s,s,new A.aM(20,o,20,o),s,s,s)},
+return A.ci(s,A.oA(A.a([A.ep(new A.a2E(r,s),p),B.ab2,A.ep(new A.a1y(r,s),p)],t.p),B.v,n,s,B.y,B.t,s,s,B.an),B.p,s,s,B.Jc,s,s,s,new A.aM(20,o,20,o),s,s,s)},
 $S:215}
 A.a2E.prototype={
 E(a){return A.cC(A.a([B.ahk,this.c===B.aA?A.Bu("assets/area1-KV.png",null,null,null):B.cF],t.p),B.v,B.y,B.t)}}
@@ -90527,7 +90527,7 @@ A.QM.prototype={
 E(a){return B.Of}}
 A.a1U.prototype={
 E(a){var s=null
-return A.ci(s,new A.j5(new A.axm(),s),B.p,s,s,B.Jc,s,s,s,B.oL,s,s,s)}}
+return A.ci(s,new A.j5(new A.axm(),s),B.p,s,s,B.Je,s,s,s,B.oL,s,s,s)}}
 A.axm.prototype={
 $2(a,b){var s=null,r=A.mu(b.b)===B.aA,q=r?B.a1:B.Z,p=r?B.cG:B.N,o=r?B.cG:B.GG,n=r?B.cG:B.N,m=r?B.pJ:B.N,l=r?B.cG:B.N
 return A.oA(A.a([p,new A.a2m(r,s),o,B.alF,n,m,l],t.p),B.b6,q,s,B.ba,B.t,s,s,B.an)},
@@ -90610,7 +90610,7 @@ q[10]=1
 q[3]=0
 q[7]=0
 q[11]=0
-return A.aQ2(B.G,A.ci(m,A.BE(!1,!0,A.kh(B.bX,A.a([s,A.aH7(A.ci(m,m,B.p,A.a7(51,255,255,255),m,m,m,200,m,m,new A.bi(q),m,50),B.aG,B.cQ,r,m)],t.p),B.U,B.bz),m,!0,m,m,m,m,m,m,m,new A.aAe(n),m,new A.aAf(n),m,m,m,m),B.cj,m,m,B.Jh,new A.ch(m,m,k,B.cL,m,m,B.a4),m,m,m,m,m,m),m,l)}}
+return A.aQ2(B.G,A.ci(m,A.BE(!1,!0,A.kh(B.bX,A.a([s,A.aH7(A.ci(m,m,B.p,A.a7(51,255,255,255),m,m,m,200,m,m,new A.bi(q),m,50),B.aG,B.cQ,r,m)],t.p),B.U,B.bz),m,!0,m,m,m,m,m,m,m,new A.aAe(n),m,new A.aAf(n),m,m,m,m),B.cj,m,m,B.Jg,new A.ch(m,m,k,B.cL,m,m,B.a4),m,m,m,m,m,m),m,l)}}
 A.aAh.prototype={
 $0(){this.a.d=!0},
 $S:0}
@@ -90687,7 +90687,7 @@ E(a){var s,r,q=null
 A.m5().$1(this.j(0))
 s=$.aJF.aP()
 r=t.p
-return A.aIY(A.cC(A.a([A.eN(A.a([B.cG,A.ep(A.mh(A.ci(q,A.ci(q,A.cC(A.a([new A.Lr(this.a.c,s,q),B.R3],r),B.v,B.y,B.t),B.U,q,q,B.Ji,q,q,q,q,q,q,q),B.p,q,B.jw,q,q,q,q,B.PM,q,q,q),q,q),10),B.cG],r),B.v,B.y,B.t),A.ci(q,new A.FX("https://qpptec.com/app/information?phoneNumber="+this.a.c+"&lang=zh_TW",q),B.p,q,q,q,q,q,q,B.Pz,q,q,q)],r),B.v,B.y,B.t),B.Z)}}
+return A.aIY(A.cC(A.a([A.eN(A.a([B.cG,A.ep(A.mh(A.ci(q,A.ci(q,A.cC(A.a([new A.Lr(this.a.c,s,q),B.R3],r),B.v,B.y,B.t),B.U,q,q,B.Jh,q,q,q,q,q,q,q),B.p,q,B.jw,q,q,q,q,B.PM,q,q,q),q,q),10),B.cG],r),B.v,B.y,B.t),A.ci(q,new A.FX("https://qpptec.com/app/information?phoneNumber="+this.a.c+"&lang=zh_TW",q),B.p,q,q,q,q,q,q,B.Pz,q,q,q)],r),B.v,B.y,B.t),B.Z)}}
 A.ay4.prototype={
 $1(a){var s,r=null,q=A.rR(this.a.a.c,r)
 if(q!=null){s=t.z
@@ -90730,7 +90730,7 @@ j=A.aON(B.lz,A.aIL(o,B.ly),n)
 o=s.e?B.I3:new A.p1(j,1,f)
 o=A.aHy(B.bD,o,new A.aa9(s))
 n=A.akJ(!0,f,A.a7(B.d.bh(178.5),0,0,0),!1,f,f,f)
-i=l?B.I0:new A.p1(m,1,f)
+i=l?B.I2:new A.p1(m,1,f)
 i=A.ey(new A.M_(B.P,i,new A.aaa(s),f),100,100)
 if(r==null)h=f
 else{h=A.aJd(r.a).b
@@ -98547,8 +98547,8 @@ B.HZ=new A.uh(3,"detached")
 B.I_=new A.Lj(127)
 B.js=new A.zu(0,"polite")
 B.jt=new A.zu(1,"assertive")
-B.I0=new A.iR("desktop_pic_profile_avatar_default.png",null,null)
-B.I3=new A.iR("desktop_pic_commodity_largepic_default.webp",null,null)
+B.I2=new A.iR("assets/desktop_pic_profile_avatar_default.png",null,null)
+B.I3=new A.iR("assets/desktop_pic_commodity_largepic_default.webp",null,null)
 B.d_=A.a(s([]),t.s)
 B.n=new A.Fr(1,"downstream")
 B.mj=new A.iF(-1,-1,B.n,!1,-1,-1)
@@ -98628,37 +98628,37 @@ B.J8=new A.an(48,1/0,48,1/0)
 B.jU=new A.C(4283883513)
 B.a4=new A.LM(0,"rectangle")
 B.Ja=new A.ch(B.jU,null,null,B.cL,null,null,B.a4)
+B.I4=new A.iR("assets/desktop-pic-commodity-largepic-sample-general.webp",null,null)
+B.bD=new A.um(2,"cover")
+B.cX=new A.vu(3,"noRepeat")
+B.dw=new A.qO(1,"low")
+B.OG=new A.ot(B.I4,null,B.bD)
+B.Jb=new A.ch(null,B.OG,null,null,null,null,B.a4)
+B.I5=new A.iR("assets/area1-bg-xl.jpg",null,null)
+B.OH=new A.ot(B.I5,null,B.bD)
+B.Jc=new A.ch(null,B.OH,null,null,null,null,B.a4)
 B.fO=new A.LM(1,"circle")
-B.Jb=new A.ch(null,null,null,null,null,null,B.fO)
+B.Jd=new A.ch(null,null,null,null,null,null,B.fO)
 B.b3=new A.ts(0,"clamp")
 B.Lq=new A.C(4279375406)
 B.Lu=new A.C(4279841635)
 B.Xm=A.a(s([B.Lq,B.Lu]),t.t_)
 B.RB=new A.vL(B.n6,B.n5,B.b3,B.Xm,null,null)
-B.Jc=new A.ch(null,null,null,null,null,B.RB,B.a4)
+B.Je=new A.ch(null,null,null,null,null,B.RB,B.a4)
 B.j=new A.C(4294967295)
 B.iH=new A.ba(6,6)
 B.IT=new A.cK(B.iH,B.iH,B.iH,B.iH)
 B.nn=new A.ch(B.j,null,null,B.IT,null,null,B.a4)
-B.I2=new A.iR("area1-bg-xl.jpg",null,null)
-B.bD=new A.um(2,"cover")
-B.cX=new A.vu(3,"noRepeat")
-B.dw=new A.qO(1,"low")
-B.OI=new A.ot(B.I2,null,B.bD)
-B.Jd=new A.ch(null,B.OI,null,null,null,null,B.a4)
-B.I1=new A.iR("desktop-bg-kv.webp",null,null)
-B.OH=new A.ot(B.I1,null,B.bD)
-B.Je=new A.ch(null,B.OH,null,null,null,null,B.a4)
-B.I4=new A.iR("desktop-pic-commodity-largepic-sample-general.webp",null,null)
-B.OF=new A.ot(B.I4,null,B.bD)
+B.I0=new A.iR("assets/desktop_bg_area03.webp",null,null)
+B.OF=new A.ot(B.I0,null,B.bD)
 B.Jf=new A.ch(null,B.OF,null,null,null,null,B.a4)
-B.I5=new A.iR("desktop_bg_area03.webp",null,null)
-B.OG=new A.ot(B.I5,null,B.bD)
-B.Jg=new A.ch(null,B.OG,null,null,null,null,B.a4)
-B.Jh=new A.ch(null,null,null,B.cL,null,null,B.a4)
+B.Jg=new A.ch(null,null,null,B.cL,null,null,B.a4)
 B.iC=new A.ba(12,12)
 B.nh=new A.cK(B.iC,B.iC,B.iC,B.iC)
-B.Ji=new A.ch(null,null,null,B.nh,null,null,B.a4)
+B.Jh=new A.ch(null,null,null,B.nh,null,null,B.a4)
+B.I1=new A.iR("assets/desktop-bg-kv.webp",null,null)
+B.OI=new A.ot(B.I1,null,B.bD)
+B.Ji=new A.ch(null,B.OI,null,null,null,null,B.a4)
 B.Jj=new A.um(1,"contain")
 B.Jk=new A.um(3,"fitWidth")
 B.no=new A.um(6,"scaleDown")
