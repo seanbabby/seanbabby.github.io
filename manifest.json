@@ -1,6 +1,6 @@
 {
-    "name": "hello_mdfk",
-    "short_name": "hello_mdfk",
+    "name": "qpp_example",
+    "short_name": "qpp_example",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
