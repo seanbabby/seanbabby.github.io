@@ -32924,7 +32924,7 @@ hM(a){if(a!=null)return a.length===0
 return!0},
 lT(a,b){var s=0,r=A.a_(t.z),q
 var $async$lT=A.a0(function(c,d){if(c===1)return A.X(d,r)
-while(true)switch(s){case 0:q=A.dI(A.b0o(a),0,null)
+while(true)switch(s){case 0:q=A.dI(a,0,null)
 s=2
 return A.a6(A.aVm(q,b?"_blank":"_self"),$async$lT)
 case 2:if(!d)throw A.c(A.cH("Could not launch "+q.j(0)))
@@ -100852,7 +100852,7 @@ A.ats.prototype={
 $0(){var s=this.a.c
 if(A.hM(s))A.lT("https://qpptec.com/app/go",!0)
 else{s.toString
-A.lT(s,!1)}},
+A.lT(A.b0o(s),!1)}},
 $S:6}
 A.QV.prototype={
 A(a1){var s,r,q,p,o,n=this,m=null,l=A.j4(a1),k=l?25:36,j=l?28:16,i=l?28:16,h=n.r,g=A.l1(8),f=l?B.K:B.o,e=l?B.hq:B.cL,d=l?B.bw:B.D,c=l?16:17,b=l?A.b0h(B.D,A.aO(m,m,B.k,B.p,m,m,m,1,m,m,m,m,h),B.k,m):B.q,a=l?16:0,a0=l?B.ana:B.hp
