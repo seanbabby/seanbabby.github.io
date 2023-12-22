@@ -31199,12 +31199,12 @@ n=n.gdE(n)
 p=window.history
 p.toString
 o=t.z
-p.pushState(new A.A6([],[]).kH(A.x(o,o)),"",n+"?"+s)}else{n=A.l1()
+p.replaceState(new A.A6([],[]).kH(A.x(o,o)),"",n+"?"+s)}else{n=A.l1()
 n=n.gdE(n)
 p=window.history
 p.toString
 o=t.z
-p.pushState(new A.A6([],[]).kH(A.x(o,o)),"",n+"?lang="+b)}},
+p.replaceState(new A.A6([],[]).kH(A.x(o,o)),"",n+"?lang="+b)}},
 b4H(a){var s,r,q,p,o,n,m,l,k,j,i,h=null,g="0123456789ABCDEFGHJKLMNPQRSTUVWXY",f=a.length
 if(f===0||B.e.bx(f,2)!==0||f<=6)return""
 s=new A.bb("")
