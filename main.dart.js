@@ -97554,7 +97554,7 @@ A.arw.prototype={
 $2(a,b){return B.a5N},
 $S:31}
 A.aLX.prototype={
-$1(a){A.dO(a.JH())
+$1(a){A.dO("test error: "+a.JH())
 $.vT=new A.aLU()},
 $S:617}
 A.aLU.prototype={
