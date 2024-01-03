@@ -34,7 +34,7 @@
 
     <script>
       // The value below is injected by flutter build, do not touch.
-      var serviceWorkerVersion = "3298346290";
+      var serviceWorkerVersion = "2544584827";
     </script>
     <!-- This script adds the flutter initialization JS code -->
     <script src="flutter.js" defer></script>
@@ -52,7 +52,7 @@
   </style>
 
   <!--loading 样式 -->
-  <!-- <style type="text/css">
+  <style type="text/css">
     .loading-logoFadeIn {
       background-image: radial-gradient(circle at center, #1e4287, #000b2b);
       width: 100%;
@@ -170,10 +170,10 @@
         right: -2px;
       }
     }
-  </style> -->
+  </style>
 
   <body>
-    <!-- <div class="loading-logoFadeIn">
+    <div class="loading-logoFadeIn">
       <div class="loadingArea align-self-center">
         <img
           src="assets/pic-animation-icon-2.png"
@@ -185,16 +185,16 @@
           class="icon loading-right img-fluid"
         />
       </div>
-    </div> -->
+    </div>
 
     <script>
       window.addEventListener("load", function (ev) {
         // Download main.dart.js
         _flutter.loader.loadEntrypoint({
           // disable pwa
-          serviceWorker: {
-            serviceWorkerVersion: serviceWorkerVersion,
-          },
+          // serviceWorker: {
+          //   serviceWorkerVersion: serviceWorkerVersion,
+          // },
           onEntrypointLoaded: function (engineInitializer) {
             // 修改渲染模式, 加速載入中文
             // https://docs.flutter.dev/platform-integration/web/renderers
@@ -211,29 +211,29 @@
       });
 
       // Flutter 渲染的第一幀完成就關閉載入動畫
-      // window.addEventListener("flutter-first-frame", function () {
-      //   var loadingAnimation = document.querySelector(".loading-logoFadeIn");
-      //   loadingAnimation.style.display = "none";
-      // });
+      window.addEventListener("flutter-first-frame", function () {
+        var loadingAnimation = document.querySelector(".loading-logoFadeIn");
+        loadingAnimation.style.display = "none";
+      });
     </script>
 
     <!-- 修正 iOS webview 無法滾動問題 -->
-    <!-- <script>
-    var element = document.getElementsByTagName("body")[0];
+    <script>
+      var element = document.getElementsByTagName("body")[0];
 
-    var handleScroll = function () {
-      element.scrollTo(0, 0); // required when scroll bar is drgged
-    };
+      var handleScroll = function () {
+        element.scrollTo(0, 0); // required when scroll bar is drgged
+      };
 
-    element.addEventListener("scroll", handleScroll, false);
+      element.addEventListener("scroll", handleScroll, false);
 
-    var handleEvent = function (e) {
-      e.preventDefault(); // disables scrolling by mouse wheel and touch move
-    };
+      var handleEvent = function (e) {
+        e.preventDefault(); // disables scrolling by mouse wheel and touch move
+      };
 
-    element.addEventListener("scroll", handleEvent, { passive: false });
-    element.addEventListener("mousewheel", handleEvent, { passive: false });
-    element.addEventListener("touchmove", handleEvent, { passive: false });
-  </script> -->
+      element.addEventListener("scroll", handleEvent, { passive: false });
+      element.addEventListener("mousewheel", handleEvent, { passive: false });
+      element.addEventListener("touchmove", handleEvent, { passive: false });
+    </script>
   </body>
 </html>
