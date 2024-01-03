@@ -36,7 +36,7 @@
 
     <script>
       // The value below is injected by flutter build, do not touch.
-      var serviceWorkerVersion = "960693372";
+      var serviceWorkerVersion = "1148004561";
     </script>
     <!-- This script adds the flutter initialization JS code -->
     <script src="flutter.js" defer></script>
@@ -174,7 +174,7 @@
     }
   </style>
 
-  <body id="app">
+  <body>
     <div class="loading-logoFadeIn">
       <div class="loadingArea align-self-center">
         <img
@@ -222,6 +222,7 @@
     <!-- 修正 iOS webview 無法滾動問題 -->
     <script>
       var element = document.getElementsByTagName("body")[0];
+      element.id = "app";
 
       var handleScroll = function () {
         element.scrollTo(0, 0); // required when scroll bar is drgged
