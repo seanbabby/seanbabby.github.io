@@ -34,7 +34,7 @@
 
     <script>
       // The value below is injected by flutter build, do not touch.
-      var serviceWorkerVersion = "803039459";
+      var serviceWorkerVersion = "3809796563";
     </script>
     <!-- This script adds the flutter initialization JS code -->
     <script src="flutter.js" defer></script>
@@ -215,22 +215,6 @@
         var loadingAnimation = document.querySelector(".loading-logoFadeIn");
         loadingAnimation.style.display = "none";
       });
-
-      var element = document.getElementsByTagName("body")[0];
-
-      var handleScroll = function () {
-        element.scrollTo(0, 0); // required when scroll bar is drgged
-      };
-
-      element.addEventListener("scroll", handleScroll, false);
-
-      var handleEvent = function (e) {
-        e.preventDefault(); // disables scrolling by mouse wheel and touch move
-      };
-
-      element.addEventListener("scroll", handleEvent, { passive: false });
-      element.addEventListener("mousewheel", handleEvent, { passive: false });
-      element.addEventListener("touchmove", handleEvent, { passive: false });
     </script>
 
     <!-- 修正 iOS webview 無法滾動問題 -->
