@@ -29,7 +29,7 @@
     <link rel="manifest" href="manifest.json" />
     <script>
       // The value below is injected by flutter build, do not touch.
-      const serviceWorkerVersion = "680105391";
+      const serviceWorkerVersion = "3291061697";
     </script>
     <!-- This script adds the flutter initialization JS code -->
     <script src="flutter.js" defer></script>
@@ -232,6 +232,11 @@
         if (event.animationName === "fadeOut") {
           loadingLogo.remove();
         }
+      });
+
+      window.addEventListener("beforeinstallprompt", function (e) {
+        e.preventDefault();
+        return false;
       });
 
       window.addEventListener("load", function (ev) {
